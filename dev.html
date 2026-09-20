@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css dev/dev.css">
+    <title>Lynn Hachem - Web Developer</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <nav class="nav-bar">
+                <div class="logo">Lynn Hachem</div>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section id="hero" class="hero">
+                <div class="hero-content">
+                    <h1>Hi, I'm Lynn Hachem</h1>
+                    <p class="tagline">Learning Web Development, Creating Websites</p>
+                    <a href="#contact" >Get in Touch</a>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <div class="section-wrapper">
+                    <h2>About Me</h2>
+                    <div class="about-content">
+                        <img src="images/picforweb.png" alt="Lynn Hachem">
+                        <div class="about-text">
+                            <p>I'm a fourth year engineering student that does nothing but sleep all semester but loves to learn and explore new things</p>
+                            <p>Not the quietest girl in class but will definitely learn a lot while talking to chat gpt</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="skills">
+                <div class="section-wrapper">
+                    <h2>My Skills</h2>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <h3>HTML</h3>
+                            <p>Learning how to write clean HTML for websites that I always asked myself how they were designed</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3>CSS</h3>
+                            <p>Basic CSS, learning how to color or make a word in a box etc</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3>Communication</h3>
+                            <p>I have the patience and curiosity to ask in case I didn't understand the work</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <div class="section-wrapper">
+                    <h2>Get In Touch</h2>
+                    <p class="contact-intro">If you need any help just leave me your info and I'll get in touch with you.</p>
+
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p>Lynn Hachem | Student ID: 240748</p>
+                <ul class="social-links">
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
