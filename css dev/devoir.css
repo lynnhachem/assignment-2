@@ -30,8 +30,6 @@ body {
   line-height: 1.5;
 }
 
-h1,
-h2,
 h3 {
   line-height: 1.2;
   margin: 0 0 var(--sp-3) 0;
@@ -62,13 +60,6 @@ a {
 
 a:hover {
   color: var(--brand-dark);
-}
-
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .page {
@@ -150,38 +141,6 @@ section {
   flex-direction: column;
   gap: var(--sp-3);
 }
-
-
-.btn {
-  display: inline-block;
-  text-align: center;
-  padding: var(--sp-3) var(--sp-4);
-  border-radius: var(--radius);
-  font-weight: 600;
-  transition: background 180ms ease-out, color 180ms ease-out;
-}
-
-.btn-primary {
-  background: var(--brand);
-  color: var(--surface-alt);
-}
-
-.btn-primary:hover {
-  background: var(--brand-dark);
-  color: var(--surface-alt);
-}
-
-.btn-secondary {
-  background: transparent;
-  color: var(--brand);
-  border: 1px solid var(--brand);
-}
-
-.btn-secondary:hover {
-  background: var(--brand);
-  color: var(--surface-alt);
-}
-
 
 .card-row {
   display: flex;
@@ -330,13 +289,6 @@ section {
 .footer-links a:hover {
   color: var(--border);
 }
-
-.copyright {
-  margin: var(--sp-4) 0 0 0;
-  color: var(--border);
-  font-size: 0.85rem;
-}
-
 
 
 @media (min-width: 700px) {
